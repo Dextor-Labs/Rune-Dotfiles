@@ -1,0 +1,29 @@
+# Local machine - Mac 
+*.local
+.config/zsh/.zshrc.local
+
+# downloads 
+tmux/plugins/
+ghostty/themes/
+
+
+# macos
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temp files 
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Environment / secrets
+.env
+*.env
+.env.*
+
+# Cache / compiled
+.cache/
+dist/
+build/
