@@ -1,0 +1,83 @@
+[mgr]
+
+# open file in nvim
+[[mgr.prepend_keymap]]
+on = "e"
+run = "open --edit"
+desc = "Edit in Neovim"
+
+# open with system app
+[[mgr.prepend_keymap]]
+on = "o"
+run = "open --interactive"
+desc = "Open with..."
+
+# go to home
+[[mgr.prepend_keymap]]
+on = ["g", "h"]
+run = 'cd ~'
+desc = "Go home"
+
+# go to config
+[[mgr.prepend_keymap]]
+on = ["g", "c"]
+run = 'cd ~/.config'
+desc = "Go config"
+
+# go to developer
+[[mgr.prepend_keymap]]
+on = ["g", "d"]
+run = "cd ~/Developer"
+desc = "Go developer"
+
+# go to movies
+[[mgr.prepend_keymap]]
+on = ["g", "m"]
+run = "cd ~/Movies"
+desc = "Go Movies"
+
+# go to pictures
+[[mgr.prepend_keymap]]
+on = ["g", "i"]
+run = "cd ~/Pictures"
+desc = "Go Pictures"
+
+
+
+# toggle hidden files
+[[mgr.prepend_keymap]]
+on = "."
+run = "hidden toggle"
+desc = "Toggle hidden"
+
+# create file
+[[mgr.prepend_keymap]]
+on = "a"
+run = 'create'
+desc = "Create file/folder"
+
+# delete (safer habit)
+[[mgr.prepend_keymap]]
+on = ["d", "d"]
+run = 'remove'
+desc = "Delete"
+
+# selected files
+[[mgr.prepend_keymap]]
+on = ["y", "y"]
+run = 'yank'
+desc = "Yank selected files"
+
+# copy path
+[[mgr.prepend_keymap]]
+on = ["y", "p"]
+run = 'copy path'
+desc = "Copy file path"
+
+# copy filename
+[[mgr.prepend_keymap]]
+on = ["y", "f"]
+run = "copy filename"
+desc = "Copy filename"
+
+
