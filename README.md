@@ -1,13 +1,25 @@
 # My first DotFiles Rune-Dotfiles V0.1
 
-Tools:
+My personal Mac dotfiles.
+This repo contains my terminal, shell, and development tool configuration files. 
+It is a work in progress and I will make it grow over time as I improve my setup and skills.
+
+## Included Configs
+Currently included:
+- btop
+- fastfetch
+
+
+## Tools: Planing / Being added 
 - Neovim
 - tmux
 - zsh
 - Ghostty
 - Iterm
+- Yaza
 
-### Setup
+### Setup Requirements
+- Homebrew
 - Brew install - 
 - git
 - neovim
@@ -16,14 +28,11 @@ Tools:
 - eza
 - bat
 - tmux
+  
 
 
-## Install
+## Clone the Repo
 
 Setup:
 - clone repo
-- run install script (WIP)
 
-#```bash
-cd ~/.dotfiles
-./install.sh
