@@ -1,0 +1,45 @@
+
+
+# -----------------------------
+#     Font
+# -----------------------------
+font-size = 18
+
+
+
+# -----------------------------
+#     Theme
+# -----------------------------
+#theme = "Dracula"
+#theme = "Catppuccin Mocha"
+#theme = "Kanagawa"
+#theme = "Nord"
+#theme = "Tokyo Night"
+#theme = "Blue Matrix"
+#theme = "12-bit Rainbow"
+theme = "Atom"
+#theme = "Atom One Dark"
+#theme = "Monokai Classic"
+
+
+#------------------------------
+# Better readability
+#------------------------------
+#line-height = 1.2
+adjust-cell-height = 10%
+#adjust-cell-height = 2
+
+#------------------------------
+# Window
+#------------------------------
+window-padding-x = 8
+window-padding-y = 8
+
+
+
+# -----------------------------
+#       Cursor
+# -----------------------------
+cursor-style = "block"
+#cursor-style-blink = "true" 
+shell-integration-features = no-cursor
