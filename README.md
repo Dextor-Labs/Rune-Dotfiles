@@ -8,7 +8,7 @@ It is a work in progress and I will make it grow over time as I improve my setup
 Currently included:
 - btop
 - fastfetch
-
+- Yaza
 
 ## Tools: Planing / Being added 
 - Neovim
@@ -16,7 +16,7 @@ Currently included:
 - zsh
 - Ghostty
 - Iterm
-- Yaza
+
 
 ### Setup Requirements
 - Homebrew
