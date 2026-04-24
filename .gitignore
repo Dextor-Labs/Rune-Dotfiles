@@ -6,6 +6,11 @@
 tmux/plugins/
 ghostty/themes/
 
+# Neovim plugin/cache folders
+nvim/lazy/
+nvim/plugged/
+nvim/site/
+nvim/.cache/
 
 # macos
 .DS_Store
