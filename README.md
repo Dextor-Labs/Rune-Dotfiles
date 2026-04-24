@@ -9,12 +9,13 @@ Currently included:
 - btop
 - fastfetch
 - Yaza
+- Nvim
+- Ghostty
 
 ## Tools: Planing / Being added 
-- Neovim
+
 - tmux
 - zsh
-- Ghostty
 - Iterm
 
 
