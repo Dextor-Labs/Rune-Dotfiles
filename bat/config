@@ -1,0 +1,9 @@
+# bat config
+
+#--theme="Dracula"
+--theme="Catppuccin Macchiato"
+#--theme="TwoDark"
+--style="numbers,changes,header"
+--paging=auto
+--tabs=2
+--wrap=never
