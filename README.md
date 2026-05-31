@@ -11,11 +11,13 @@ Currently included:
 - Yaza
 - Nvim
 - Ghostty
+- zsh
+- bat
 
 ## Tools: Planing / Being added 
 
 - tmux
-- zsh
+
 - Iterm
 
 
