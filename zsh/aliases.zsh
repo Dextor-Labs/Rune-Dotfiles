@@ -16,6 +16,14 @@ alias lla="eza -a --oneline --icons --git --group-directories-first --no-quotes"
 alias ll="eza -l --icons --git --group-directories-first"
 alias lt="eza --tree --level=2 --icons"
 alias l="eza -l --icons --git --group-directories-first --header"
+#----------------------------------
+# Bat
+#----------------------------------
+alias cat="bat"
+alias catt="/bin/cat"
+alias batp="bat --plain"
+alias batn="bat --style=numbers"
+alias bathelp="bat --plain --language=help"
 
 #----------------------------------
 # Navigation
@@ -68,7 +76,7 @@ alias nvimconf="cd ~/.config/nvim && nvim ."
 # Git
 #-----------------------------------
 alias g="git"
-
+alias lg="lazygit"
 # status / add / commit
 alias gs="git status"
 alias ga="git add"

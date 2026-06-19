@@ -5,6 +5,12 @@
 #mkcd() {
  # mkdir -p "$1" && cd "$1"
 #}
+# starship theme swap 
+starship-theme() {
+  cp "$HOME/.config/starship/themes/$1.toml" "$HOME/.config/starship/starship.toml"
+  source ~/.zshrc
+}
+
 mkcd() {
   if [[ -z "$1" ]]; then
     echo "Usage: mkcd <folder>"
